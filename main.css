@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+/*Display flex-box*/
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/*Estilização dos inputs*/
+input {
+    max-width: 350px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    max-width: 350px;
+    width: 100%;
+    height: 40px;
+}
+
+/*Tirar setas de numeros do input*/
+input[type=number]::-webkit-inner-spin-button{
+    appearance: none; 
+}
